@@ -20,7 +20,9 @@ const slug = ({post, session}) => {
     <>
     {post && post.map((article) => {
         return (
-          <PostTemplate id={article.id} title={article.title} description={article.description} content={article.content} slug={article.slug} session={session}/>
+            <div key={article.id}>
+          <PostTemplate title={article.title} description={article.description} content={article.content} slug={article.slug} session={session}/>
+          </div>
         )
       })}
       </>

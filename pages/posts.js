@@ -23,10 +23,11 @@ const posts = ({ blogPost }) => {
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Blogs include findings from work, personal projects, or open source contributions</p>
       </div> 
       <div className="grid gap-8 lg:grid-cols-2">
-      
         {blogPost && blogPost.map((post) => {
           return (
-            <PostCard id={post.id} title={post.title} description={post.description} slug={post.slug} />
+            <div key={post.id}>
+            <PostCard title={post.title} description={post.description} slug={post.slug} />
+            </div>
           )
         })}
       </div>  

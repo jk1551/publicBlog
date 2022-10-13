@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800">
   <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-      &copy; 2022 <a href="https://flowbite.com/" className="hover:underline" target="_blank">Therealjoeking.com</a>. All rights reserved.
+      &copy; 2022 <a href="https://flowbite.com/" className="hover:underline" target="_blank" rel="noreferrer">Therealjoeking.com</a>. All rights reserved.
   </p>
   <div className="flex justify-center items-center space-x-1">
     <a href="https://www.twitter.com/josephk1551" data-tooltip-target="tooltip-twitter" className="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
